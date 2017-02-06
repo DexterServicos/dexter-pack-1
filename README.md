@@ -1,5 +1,10 @@
 #Dexter pack
 
+Clone o projeto e rode um npm install.
+
+- git clone;
+- npm install.
+
 ## Rode os camandos
 
 - npm uninstall -g angular-cli
