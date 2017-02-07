@@ -6,10 +6,12 @@ import { HttpModule } from '@angular/http';
 import { MaterializeModule } from 'angular2-materialize';
 
 import { AppComponent } from './app.component';
+import { MouseEnterDirective } from './shared/mouse-enter.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MouseEnterDirective
   ],
   imports: [
     BrowserModule,
