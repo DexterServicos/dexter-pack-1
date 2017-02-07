@@ -17,7 +17,6 @@ export class MouseEnterDirective {
     );
   }
 
-
   @HostListener('mouseleave') onMouseLeave() {
     this._renderer.setElementStyle(
       this._elementRef.nativeElement,

@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import { TimesService } from './times.service';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +9,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Bem vindos ao Workflow Dexter';
+
+
+  show: boolean = true;
+  hide: boolean = false;
+  
+
 }
