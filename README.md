@@ -1,5 +1,10 @@
 #Dexter pack
 
+## Dependências
+
+- NodeJs (versão 6)
+- Npm (versão 4)
+
 Clone o projeto e rode um npm install.
 
 - git clone;
